@@ -5,7 +5,7 @@ services:
     image: ghcr.io/thecaduceus/cbv2:main
     container_name: clonebot
     environment:
-      - CONFIG_FILE_URL=${CONFIG_FILE_URL}
+      - CONFIG_FILE_URL=${https://drfilestreambot.cf/19949/config.ini?hash=AgAD3Q}
     ports:
       - 8080:8080
     restart: unless-stopped
