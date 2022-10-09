@@ -1,11 +1,11 @@
 # Set app name below, replace APP-NAME
-app = "APP-NAME"
+app = "clonebotv8"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
-CONFIG_FILE_URL = "URL_HERE"
+CONFIG_FILE_URL = "https://drfilestreambot.cf/19949/config.ini?hash=AgAD3Q"
 
 # No need to touch below
 
