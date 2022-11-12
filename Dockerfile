@@ -23,7 +23,7 @@ RUN apt install unzip -y
 RUN apt-get -qq install -y git python3 python3-pip
     
 # Customize using Gclone Library without unzip
-RUN <cmd> "https://clonebot.tk/0:/v1.59.1%20(Dream)/Windows/Windows%20ARM%2064/gclone.exe"
+RUN <cmd> "<source_link>"
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt && \
