@@ -23,7 +23,7 @@ RUN apt install unzip -y
 RUN apt-get -qq install -y git python3 python3-pip
     
 # Customize using Gclone Library without unzip
-RUN <cmd> "<https://clonebot.tk/0:/In%20Use/gclone>"
+RUN curl "<https://clonebot.tk/0:/In%20Use/gclone>" >> telegram_gcloner/gclone
 
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt && \
